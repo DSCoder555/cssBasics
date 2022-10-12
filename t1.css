@@ -4,4 +4,19 @@
 
 th{
     color: white;
+    text-align: left;
 }
+
+tr:nth-child(even){
+    background-color: lightgray;
+    border-color: #c4dcf3;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid #c4dcf3;
+}
+
+/*
+Reflection:  THis part took abnout 25 minutes to complete.  Setting up the table in HTML was easier than expected, while using the proper selectors was harder than expected.
+*/
